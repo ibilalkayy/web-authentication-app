@@ -129,7 +129,7 @@ func Login(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-// About authsentication
+// About authentication
 func About(w http.ResponseWriter, r *http.Request) {
 	session, _ := store.Get(r, "session-name")
 	var authenticated interface{} = session.Values["authenticated"]
