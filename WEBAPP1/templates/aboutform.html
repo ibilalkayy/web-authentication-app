@@ -1,0 +1,25 @@
+{{template "base" .}}
+
+{{define "title"}} About {{end}}
+
+<head>
+    <link rel="stylesheet" href="static/form.css">
+</head>
+
+{{define "nav"}}
+    <a href="/logout">Logout</a>
+    <a href="/about">About</a>
+{{end}}
+
+{{define "body"}}
+    <div class="failure">
+        <h1>{{.Aboutfailure}}</h1>
+    </div>
+    <h1>Content</h1> 
+    <form action="/about" method="POST">
+        <textarea name="content" cols="71" rows="10" required></textarea>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form> 
+{{end}}

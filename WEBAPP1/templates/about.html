@@ -1,0 +1,13 @@
+{{template "base" .}}
+
+{{define "title"}} About {{end}}
+
+{{define "nav"}}
+    <a href="/logout">Logout</a>
+    <a href="/about">About</a>
+{{end}}
+
+{{define "body"}}
+    <h1>About Page</h1>  
+    <p>{{.Aboutdata}}</p>
+{{end}}

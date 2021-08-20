@@ -1,0 +1,21 @@
+{{template "base" .}}
+
+{{define "title"}} Page error {{end}}
+
+<head>
+    <style>
+        .error p {
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+{{define "nav"}} {{end}}
+
+{{define "body"}}
+    <div class="error">
+        <p>404 page not found</p>
+    </div>  
+{{end}}
