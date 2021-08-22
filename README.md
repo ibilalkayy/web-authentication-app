@@ -16,7 +16,7 @@ The headers will be used to reference the location of destination.
 - [The First Directory](#the-first-directory)
 - [The Second Directory](#the-second-directory)
 - [The Third Directory](#the-third-directory)
-- [The Forth Directory](#the-fourth-directory)
+- [The Forth Directory](#the-forth-directory)
 - [Author Info](#author-info)
 
 ---
