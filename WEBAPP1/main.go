@@ -17,5 +17,11 @@ func main() {
 	http.HandleFunc("/logout", handler.Logout)
 	http.Handle("/static/", http.StripPrefix("/static", http.FileServer(http.Dir("static"))))
 	fmt.Println("Starting the server at :8080")
-	http.ListenAndServe(":8080", nil)
+	port := os.Getenv("PORT")
+	if len(port) == 0 {
+		port = "8080"
+	}
+	if err := http.ListenAndServe(":"+port, nil); err != nil {
+		log.Fatal(err)
+	}
 }
