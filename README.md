@@ -1,4 +1,7 @@
 # web-authentication-app
+
+![Screenshot 2021-08-24 at 13-21-05 Home](https://user-images.githubusercontent.com/64713734/130583988-82998f8c-18a7-4dc7-b2a9-17ff685caae5.png)
+
 This repository contains the code of a web authentication app that is a simple web app containing home, signup, login, about, and logout pages. Here it will authenticate the user and by the use of sessions, it made easier to limit the visitation of different pages.
 
 This software is written in Golang, HTML, and CSS. It contains four directories in which Go code, Database, HTML and CSS templates are written separately. Those directories are.
