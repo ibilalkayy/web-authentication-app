@@ -66,5 +66,5 @@ In the forth directory **static**, I created two files and those are CSS files w
 ## Author Info
 
 - YouTube - [ibilalkayy](https://www.youtube.com/channel/UCBLTfRg0Rgm4FtXkvql7DRQ)
-- LinkedIn - [@ibilalkayy](https://www.linkedin.com/in/ibilalkayy/)
-
+- LinkedIn - [ibilalkayy](https://www.linkedin.com/in/ibilalkayy/)
+- Twitter - [ibilalkayy](https://twitter.com/ibilalkayy)
